@@ -2,8 +2,8 @@ provider "random" {}
 
 variable "first_last_name" {
   default = {
-    "Name" : "Name",
-    "LastName" : "Surname"
+    "Name" : "FirstName",
+    "LastName" : "LastName"
   }
 }
 
