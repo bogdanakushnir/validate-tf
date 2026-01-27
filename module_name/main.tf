@@ -1,7 +1,7 @@
 
 variable "first_name" {}
 variable "last_name" {}
-variable "password" {} 
+# variable "password" {} 
 # the password will be 123
 
 resource "null_resource" "name" {
