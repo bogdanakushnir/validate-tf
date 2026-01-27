@@ -7,6 +7,13 @@ variable "first_last_name" {
   }
 }
 
+variable "first_last_name" {
+  default = {
+    "Name" : "Prenom",
+    "LastName" : "Nom1"
+  }
+}
+
 module "name_complete" {
   for_each   = var.first_last_name
   source     = "./module_name/"
