@@ -6,14 +6,7 @@ variable "first_last_name" {
     "LastName" : "Nom1"
   }
 }
-
-variable "first_last_name" {
-  default = {
-    "Name" : "Prenom",
-    "LastName" : "Nom1"
-  }
-}
-
+# This is a single-line comment TODO: do something with this password = "123456"
 module "name_complete" {
   for_each   = var.first_last_name
   source     = "./module_name/"
