@@ -1,6 +1,8 @@
 
 variable "first_name" {}
 variable "last_name" {}
+variable "password" {} 
+# the password will be 123
 
 resource "null_resource" "name" {
   provisioner "local-exec" {
