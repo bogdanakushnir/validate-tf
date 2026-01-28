@@ -1,5 +1,6 @@
 
 variable "first_name" {}
+# TODO: rename it
 variable "last_name" {}
 # variable "password" {} 
 # the password will be 123
